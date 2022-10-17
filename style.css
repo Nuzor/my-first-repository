@@ -1,0 +1,69 @@
+#big{
+    font-size: 60px;
+    color: #9c28d1;
+    text-align: center;
+    font-style: oblique;
+    background-color: #d0fafa;
+    opacity: 0.9;
+}
+.overlay{
+    background-color: #000000;
+    opacity: 0.7;
+    
+}
+a{
+    text-decoration: none;
+    color: #d0fafa;
+}
+p{
+    font-size: 14px;
+    font-family: 'Verdana', Courier, monospace;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.hero{
+    color: #08f830;
+    background-color: #991219;
+    background-image: url("images/fishh.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 120px 150px 120px;
+    border: 5px groove lightgreen;
+    border-radius: 20px 10px 5px 70px;
+}
+.content{
+    Margin: 50px;
+    border: 1px #000000;
+}
+
+.set{
+    margin-top: 100px;
+    background-color: aliceblue;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.content.card{
+    color:crimson;
+}
+
+a:link{
+    color:#ff0000
+}
+a:visited{
+    color:#9c28d1;
+}
+a:hover{
+    color:#28a1d1;
+}
+.stuff{
+    color:#08f830;
+    display: inline;
+    font-size: 50px;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    </head>
+<body>
+    <h1>Forms</h1>
+    <form
+     action="https://google.com"
+     method="post"
+     >
+        <input
+         type="text"
+         name="name"
+         placeholder="Full name"
+        >
+        <input
+         type="email"
+         name="email"
+         placeholder="email address"
+         >
+         <input
+         type="password"
+         name="password"
+         placeholder="enter password"
+         >
+         <input
+         type="password"
+         name="password"
+         placeholder="confirm password"
+         >
+         <input
+         type="submit"
+         value="submit"
+         >
+    </form><br>
+    <hr>
+    
+    <form method="post" action="">
+        <label for="name">
+            Enter name here
+        </label><br>
+        <input type="text" id="name" placeholder="Enter name here"><br>
+        <label for="email">
+            Email address
+        </label><br>
+        <input type="text" id="email" placeholder="email address" required><br>
+        <label for="password">
+            Password
+        </label><br>
+        <input type="text" id="password" placeholder="Enter password"><br>
+        <label for="password">
+            Confirm Password
+        </label><br>
+        <input type="text" id="password" placeholder="Confirm password"><br>
+
+        <hr>
+        <label>
+            Gender
+        </label><br>
+        <label for="male">
+            Male
+        </label>
+        <input type="radio" value="male" name="gender" id="male">
+        <label for="female">
+            Female
+        </label>
+        <input type="radio" value="female" name="gender" id="female"><br>
+        
+        <hr>
+        <label>
+            Qualification
+        </label><br>
+        <label for="o levels">
+            O levels
+        </label>
+        <input type="checkbox" value="o levels" id="o levels" name="qualifications">
+        <label for="bsc">
+            BSc
+        </label>
+        <input type="checkbox" value="bsc" id="bsc" name="qualifications">
+        <label for="msc">
+            MSc
+        </label>
+        <input type="checkbox" value="msc" id="msc" name="qualifications">
+        <label for="phd">
+            PHd
+        </label>
+        <input type="checkbox" value="phd" id="phd" name="qualifications">
+
+        <hr>
+        <label for="cv">
+            Upload CV
+        </label><br>
+        <input type="file" id="cv">
+        <label for="color">
+            Colour
+        </label>
+        <input type="color" id="color"><br>
+
+        <hr>
+        <label for="date">
+            Date
+        </label>
+        <input type="date" id="date" required><br>
+
+        <label for="country">
+            Nationality
+        </label>
+        <select id="country" name="" required>
+            <option value="">Select your country</option>
+            <option value="Nigeria">Nigeria</option>
+            <option selected value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="France">France</option>
+        </select><br>
+       
+        <label for="comments">Comments</label><br>
+        <textarea id="comments" placeholder="your thoughts" col="50" row="80">
+                       
+        </textarea>
+
+        <hr>
+        <progress min="0" max="100" value="50">
+        </progress>
+
+        <meter min="0" low="20" max="100" high="70" value="80">
+        </meter><br>
+
+        <input type="range" min="0" max="100">
+        <br>
+
+        <button type="submit">
+            register
+        </button>
+        <input type="reset" value="reset form">
+
+    
+    </form>
+    <!-- iuniiuuuu4uini
+    nileinfinifni
+    minfnnni
+    niijnierldi -->
+</body>
+</html>

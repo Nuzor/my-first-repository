@@ -1,0 +1,42 @@
+.body{
+    background-color: bisque;
+}
+.top{
+    display: inline;
+    position: sticky;
+    top: 5px;
+    bottom: 5px;
+}
+.main{
+    position: absolute;
+    padding: 30px;
+    top: 200px;
+    width: 65%;
+    max-width: 65%;
+    border: 2px solid black;
+    font-size: 30px;
+}
+.img{
+    border: 2px groove black;
+}
+.aside{
+    padding: 30px;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    width: 25%;
+    max-width: 25%;
+    border: 2px solid black;
+    font-size: larger;
+}
+.big{
+    height: 100px;
+}
+.foot{
+    padding: 600px;
+}
+ul{
+    text-align: right;
+    background-color: aqua;
+    font-size: 35px;
+}

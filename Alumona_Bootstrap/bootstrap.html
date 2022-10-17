@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Would You like to get newsletters?</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Get lastest news on our activities and events straight to your email. Remember to register!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Begining of nav bar -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">
+                <img src="kindpng_2123220.png">
+            </a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- end of nav bar -->
+
+      <!-- Slideshow -->
+    <div class="row">
+        <div class="col-12">
+            <div id="carouselExampleCaptions" class="carousel slide height" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner height">
+                  <div class="carousel-item active height" data-bs-interval="5000">
+                    <img src="Chicken.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Fried chicken</h5>
+                      <p>Shows the fried chicken in all sumptuousness.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item height" data-bs-interval="5000">
+                    <img src="nig_flag.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nigerian flag</h5>
+                      <p>Nigerian flag with the coat of arms in it</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item height" data-bs-interval="5000">
+                    <img src="fish.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Fish n stuff</h5>
+                      <p>Shows the full fish and other dishes on the table.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>  
+    <!-- end of slideshow   -->
+
+    <div class="container-fluid pt-3 ps-3">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="border border-dark p-5">
+                    <img src="fishh.PNG" class="img-fluid" class="border border-secondary">
+
+                    <div class="row">
+                        <div class="col pt-5">
+                            <div class="p-2 card shadow shadow-md border border-warning">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quae saepe id nulla veritatis dolores, praesentium eligendi ea quam, minima ex distinctio asperiores. Harum id ipsam nihil a eos saepe?</p>
+                            </div>
+                        </div>
+                        <div class="col pt-5">
+                            <div class="p-2 card shadow shadow-md border border-danger">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cum at rerum eligendi nostrum ipsum molestias impedit veniam consequuntur velit iusto esse repudiandae, facilis illum? Blanditiis veritatis quis dolorum neque!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1>POS payment <span class="badge bg-warning">New</span></h1>
+                
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Get updated
+                </button>                
+                
+            </div>
+
+            <!-- Registration form -->
+            <div class="col-md-4">
+                <div class="border border-dark p-5">
+                    <div class="alert alert-primary">Start here:</div>
+                    <div class="alert alert-success alert-dismissible fade show">Registration Successful
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+                    </div>
+                    <h1>
+                        Register Here:
+                    </h1>
+                    <form>
+                        <label>
+                            Name
+                        </label><br>
+                        <input type="text" placeholder="Name here">
+                        <br>
+                        <label>
+                            Email
+                        </label><br>
+                        <input type="text" placeholder="Email here">
+                        <br>
+                        <label>
+                            Message
+                        </label><br>
+                        <input type="text" placeholder="Message here">
+                        <br>
+                        <input type="submit" value="register">
+                    </form>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  How does it work?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is a very tasking process</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  How will you get paid?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>As easy as submitting your account number</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  How long does it last?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>Four months only.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+                
+            </div>
+           
+        </div>
+
+        
+
+    </div>
+    <div class="row">
+        <div class="text-center">
+            Designed by Alumona
+        </div>
+    </div>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
