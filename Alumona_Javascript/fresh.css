@@ -1,0 +1,16 @@
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+
+#box.mouseenter{
+    background-color: red;
+
+}
+
+#box.mouseleave{
+    background-color: pink;
+}
+
+
